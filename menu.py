@@ -21,6 +21,11 @@ def menu():
         resultado = calculadora.subtrair(num1, num2)  
         print(f"Resultado: {resultado}")  
         return
+    elif escolha == "3":  
+        num1 = float(input("Digite o primeiro número: "))  
+        num2 = float(input("Digite o segundo número: "))  
+        resultado = calculadora.multiplicar(num1, num2)  
+        print(f"Resultado: {resultado}")  
 
 if __name__ == "__main__":  
     menu()
