@@ -25,7 +25,15 @@ def menu():
         num1 = float(input("Digite o primeiro número: "))  
         num2 = float(input("Digite o segundo número: "))  
         resultado = calculadora.multiplicar(num1, num2)  
-        print(f"Resultado: {resultado}")  
+        print(f"Resultado: {resultado}")
+    elif escolha == "4":  
+        num1 = float(input("Digite o primeiro número: "))  
+        num2 = float(input("Digite o segundo número: "))  
+        if num2 == 0:  
+            print("Erro: divisao por zero!")  
+        else:  
+            resultado = calculadora.dividir(num1, num2)  
+            print(f"Resultado: {resultado}")
 
 if __name__ == "__main__":  
     menu()
