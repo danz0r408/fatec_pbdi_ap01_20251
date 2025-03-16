@@ -1,0 +1,8 @@
+# Ignorar pastas __pycache__  
+__pycache__/  
+
+# Ignorar arquivos de bytecode do Python  
+*.py[cod]  
+
+# Ignorar arquivos temporários  
+*~ 
